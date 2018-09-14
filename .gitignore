@@ -21,3 +21,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#此文件定义所有git提交时需要忽略的文件名或文件类型
+*.idea
+*.settings
+*.svn
+*.checkstyle
+*.mymetadata
+*.myumldata
+*.project
+*.tern-project
+*.iml
+*.log
+target
+logs
